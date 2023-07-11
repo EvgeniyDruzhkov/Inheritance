@@ -2,7 +2,7 @@ package org.example;
 
 public class Cuboid extends Rectangle {
 
-    double height;
+    private double height;
 
     public Cuboid(double width, double length, double height) {
         super(width, length);
@@ -13,7 +13,7 @@ public class Cuboid extends Rectangle {
         return height;
     }
 
-    double getVolume() {
+    public double getVolume() {
         return getArea() * height;
     }
 }

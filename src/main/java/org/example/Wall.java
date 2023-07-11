@@ -2,8 +2,8 @@ package org.example;
 
 public class Wall {
 
-    double width;
-    double height;
+    private double width;
+    private double height;
 
     public Wall() {
     }

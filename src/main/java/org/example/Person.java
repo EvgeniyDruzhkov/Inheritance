@@ -2,9 +2,9 @@ package org.example;
 
 public class Person {
 
-    String firstName;
-    String lastName;
-    int age;
+    private String firstName;
+    private String lastName;
+    private int age;
 
 
     public String getFirstName() {
@@ -31,11 +31,11 @@ public class Person {
         this.age = age < 0 || age > 100 ? 0 : age;
     }
 
-    boolean isTeen() {
+    public boolean isTeen() {
         return age > 12 && age < 20;
     }
 
-    String getFullName() {
+    public String getFullName() {
         if (lastName.isEmpty())
             return firstName;
 
