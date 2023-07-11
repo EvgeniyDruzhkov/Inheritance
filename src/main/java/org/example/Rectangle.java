@@ -18,7 +18,7 @@ public class Rectangle {
         return length;
     }
 
-    double getArea() {
+    public double getArea() {
         return width * length;
     }
 }

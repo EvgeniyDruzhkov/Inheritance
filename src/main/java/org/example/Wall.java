@@ -34,7 +34,7 @@ public class Wall {
         return value < 0 ? 0 : value;
     }
 
-    double getArea(){
+    public double getArea(){
         return width * height;
     }
 
